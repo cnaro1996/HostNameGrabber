@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Chris\Desktop\grab hostname\ShowHost.exe  --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Chris\Desktop\grab hostname\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+JRE paths:	jre
+Check launcher:	C:\Users\Chris\Desktop\grab hostname\jre\bin\java.exe (OK)
+Version string: 1.017.000_016 / 64-Bit (OK)
+Launcher:	C:\Users\Chris\Desktop\grab hostname\jre\bin\java.exe
+Launcher args:	-jar "C:\Users\Chris\Desktop\grab hostname\ShowHost.exe"  
+Args length:	58/32768 chars
+Exit code:	1

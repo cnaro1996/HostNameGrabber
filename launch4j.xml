@@ -1,0 +1,14 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>build/app.jar</jar>           <!-- your runnable JAR -->
+  <outfile>ShowHost.exe</outfile>    <!-- exe to produce -->
+  <chdir>.</chdir>
+
+  <jre>
+    <path>jre</path>                 <!-- relative folder with bin/java.exe -->
+    <minVersion>1.4.0</minVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits> <!-- allow either -->
+  </jre>
+</launch4jConfig>
