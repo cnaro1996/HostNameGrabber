@@ -5,7 +5,8 @@ import java.net.*;
 public class ShowHost {
     public static void main(String[] args) throws Exception {
         InetAddress me = InetAddress.getLocalHost();
-        System.out.println("InetAddress.getLocalHost().toString(): " + me); // hostName/ip
+        System.out.println("InetAddress.getLocalHost().toString().substring(0,11): "
+                + me.toString().substring(0,11)); // the correct value used in the legacy backend STARS validation
         System.out.println();
         System.out.print("Press Enter to exit...");
         try {
